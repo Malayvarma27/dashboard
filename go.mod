@@ -1,4 +1,4 @@
-module github.com/Malayvarma27/dashboard
+module github.com/kubernetes/dashboard
 
 go 1.19
 
