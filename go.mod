@@ -11,8 +11,8 @@ require (
 	github.com/spf13/pflag v1.0.5
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 	golang.org/x/text v0.3.7
+	gopkg.in/go-jose/go-jose.v2 v2.6.3
 	gopkg.in/igm/sockjs-go.v2 v2.1.0
-	gopkg.in/square/go-jose.v2 v2.6.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.25.0
 	k8s.io/apiextensions-apiserver v0.25.0

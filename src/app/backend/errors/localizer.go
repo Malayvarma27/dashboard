@@ -17,7 +17,7 @@ package errors
 import (
 	"strings"
 
-	"gopkg.in/square/go-jose.v2"
+	"gopkg.in/go-jose/go-jose.v2"
 )
 
 // Errors that can be used directly without localizing
