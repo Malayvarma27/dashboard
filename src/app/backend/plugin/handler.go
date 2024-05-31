@@ -19,11 +19,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kubernetes/dashboard/src/app/backend/handler/parser"
+	"github.com/Malayvarma27/dashboard/src/app/backend/handler/parser"
 
+	clientapi "github.com/Malayvarma27/dashboard/src/app/backend/client/api"
+	"github.com/Malayvarma27/dashboard/src/app/backend/errors"
 	"github.com/emicklei/go-restful/v3"
-	clientapi "github.com/kubernetes/dashboard/src/app/backend/client/api"
-	"github.com/kubernetes/dashboard/src/app/backend/errors"
 )
 
 const (

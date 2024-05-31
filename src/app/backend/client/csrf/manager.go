@@ -21,8 +21,8 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/kubernetes/dashboard/src/app/backend/args"
-	"github.com/kubernetes/dashboard/src/app/backend/client/api"
+	"github.com/Malayvarma27/dashboard/src/app/backend/args"
+	"github.com/Malayvarma27/dashboard/src/app/backend/client/api"
 )
 
 // Implements CsrfTokenManager interface.

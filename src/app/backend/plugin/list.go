@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kubernetes/dashboard/src/app/backend/api"
-	"github.com/kubernetes/dashboard/src/app/backend/errors"
-	"github.com/kubernetes/dashboard/src/app/backend/plugin/apis/v1alpha1"
-	pluginclientset "github.com/kubernetes/dashboard/src/app/backend/plugin/client/clientset/versioned"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/dataselect"
+	"github.com/Malayvarma27/dashboard/src/app/backend/api"
+	"github.com/Malayvarma27/dashboard/src/app/backend/errors"
+	"github.com/Malayvarma27/dashboard/src/app/backend/plugin/apis/v1alpha1"
+	pluginclientset "github.com/Malayvarma27/dashboard/src/app/backend/plugin/client/clientset/versioned"
+	"github.com/Malayvarma27/dashboard/src/app/backend/resource/dataselect"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

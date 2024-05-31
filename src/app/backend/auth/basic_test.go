@@ -17,7 +17,7 @@ package auth
 import (
 	"testing"
 
-	authAPI "github.com/kubernetes/dashboard/src/app/backend/auth/api"
+	authAPI "github.com/Malayvarma27/dashboard/src/app/backend/auth/api"
 )
 
 func TestNewBasicAuthenticator(t *testing.T) {

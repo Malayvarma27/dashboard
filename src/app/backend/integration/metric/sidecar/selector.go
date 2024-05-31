@@ -17,9 +17,9 @@ package sidecar
 import (
 	"fmt"
 
+	"github.com/Malayvarma27/dashboard/src/app/backend/api"
+	metricapi "github.com/Malayvarma27/dashboard/src/app/backend/integration/metric/api"
 	"github.com/emicklei/go-restful/v3/log"
-	"github.com/kubernetes/dashboard/src/app/backend/api"
-	metricapi "github.com/kubernetes/dashboard/src/app/backend/integration/metric/api"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kubernetes/dashboard/src/app/backend/errors"
-	integrationapi "github.com/kubernetes/dashboard/src/app/backend/integration/api"
-	"github.com/kubernetes/dashboard/src/app/backend/integration/metric/api"
+	"github.com/Malayvarma27/dashboard/src/app/backend/errors"
+	integrationapi "github.com/Malayvarma27/dashboard/src/app/backend/integration/api"
+	"github.com/Malayvarma27/dashboard/src/app/backend/integration/metric/api"
 )
 
 const fakeMetricClientID integrationapi.IntegrationID = "test-id"

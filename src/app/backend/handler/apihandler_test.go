@@ -23,15 +23,15 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/Malayvarma27/dashboard/src/app/backend/args"
+	"github.com/Malayvarma27/dashboard/src/app/backend/auth"
+	authApi "github.com/Malayvarma27/dashboard/src/app/backend/auth/api"
+	"github.com/Malayvarma27/dashboard/src/app/backend/auth/jwe"
+	"github.com/Malayvarma27/dashboard/src/app/backend/client"
+	"github.com/Malayvarma27/dashboard/src/app/backend/settings"
+	"github.com/Malayvarma27/dashboard/src/app/backend/sync"
+	"github.com/Malayvarma27/dashboard/src/app/backend/systembanner"
 	restful "github.com/emicklei/go-restful/v3"
-	"github.com/kubernetes/dashboard/src/app/backend/args"
-	"github.com/kubernetes/dashboard/src/app/backend/auth"
-	authApi "github.com/kubernetes/dashboard/src/app/backend/auth/api"
-	"github.com/kubernetes/dashboard/src/app/backend/auth/jwe"
-	"github.com/kubernetes/dashboard/src/app/backend/client"
-	"github.com/kubernetes/dashboard/src/app/backend/settings"
-	"github.com/kubernetes/dashboard/src/app/backend/sync"
-	"github.com/kubernetes/dashboard/src/app/backend/systembanner"
 	"k8s.io/client-go/kubernetes/fake"
 )
 
